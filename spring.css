@@ -1,0 +1,144 @@
+header {
+    height: 100vh;
+    background-image: url(img/wallpaper-sakura-blossom-scenic-sky-wind.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{margin:0;}
+header div{
+    height: 100vh;
+    display: flex;
+    background-color: rgba(69, 12, 88, 0.322);
+    background:linear-gradient(rgba(226, 203, 221, 0.226),rgb(255, 240, 252)) ;
+}
+header h1{
+    margin: auto;
+    font-family: TriodionRegular;
+font-size: 5vw;
+font-style:initial;
+color:rgb(151, 111, 143);
+}
+@font-face {
+    font-family: TriodionRegular;
+    src: url(fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+#poem{
+    font-family: TriodionRegular;
+    color:rgb(151, 111, 143);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    background-color:rgb(255, 240, 252) ;
+    align-items: center;
+}
+#poem p {
+font-size: 20px;
+line-height: 2;
+}
+#poem img{
+    border: 10px groove rgb(151, 111, 143);
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+}
+#links{
+    padding: 50px;
+    background-image: url(img/весвес.webp);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#links a{
+    font-size: 2vw;
+    font-family: TriodionRegular;
+    color: rgb(255, 240, 252) ;
+    width: 60%;
+    padding: 10px 0;
+    background-color:rgba(99, 102, 145, 0.836);
+    border: 3px groove rgb(99, 102, 145);
+    text-decoration: none;
+    transition: all 1s;
+}
+
+#links a:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+#priznaki{
+    padding: 50px;
+    background-color: rgb(255, 240, 252) ;
+    font-family: TriodionRegular;
+}
+
+#priznaki h2{
+   text-align: center;
+   color:rgb(151, 111, 143);
+}
+
+#priznaki ul{
+    width: fit-content;
+    margin: auto;
+    list-style-type: none;
+}
+
+
+#priznaki li:first-child {
+    background-image: url(img/цветок.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#priznaki li:nth-child(2) {
+    background-image: url(img/солнышко.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#priznaki li:nth-child(3) {
+    background-image: url(img/птица.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#priznaki li:nth-child(4) {
+    background-image: url(img/вода.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+#priznaki li:last-child {
+    background-image: url(img/вода.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
